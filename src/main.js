@@ -3,6 +3,9 @@ import App from './App'
 import router from './router'
 // import iView from 'iview'
 import 'iview/dist/styles/iview.css'
+import AV from 'leancloud-storage/live-query'
+
+console.log(AV.version)
 
 import { Row, Col, Icon, Card } from 'iview'
 Vue.component('Row', Row)
